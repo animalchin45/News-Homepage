@@ -1,0 +1,65 @@
+.btn {
+  cursor: pointer;
+
+  &--btn {
+    background-color: $color-red;
+    border: none;
+    color: $color-off-white;
+    height: 5rem;
+    text-transform: uppercase;
+    transition: background-color $fade ease-in-out;
+    width: 20rem;
+
+    &:hover {
+      background-color: $color-very-dark-blue;
+    }
+  }
+
+  &--nav {
+    transition: color $fade ease-in-out;
+
+    &:hover {
+      color: $color-orange;
+    }
+  }
+
+  &--hamburger {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    display: none;
+    position: fixed;
+    right: $space-small;
+    z-index: 4;
+
+    & img {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+
+  &--link {
+    color: $color-off-white;
+    transition: color $fade ease-in-out;
+
+    &:hover {
+      color: $color-orange;
+    }
+  }
+
+  &--card {
+    color: $color-very-dark-blue;
+    transition: color $fade ease-in-out;
+
+    &:hover {
+      color: $color-red;
+    }
+  }
+}
+
+@media (max-width: $mobile-break) {
+  .btn {
+    &--hamburger {
+      display: block;
+    }
+  }
+}

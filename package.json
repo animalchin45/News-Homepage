@@ -1,0 +1,14 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "News Homepage Challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/styles.css -w"
+  },
+  "author": "Tim O'Brien",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+  font-weight: 800;
+}
+
+body {
+  color: $color-dark-grayish-blue;
+  font-family: 'Inter';
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: $color-very-dark-blue;
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+}
+
+h2 {
+  color: $color-orange;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+
+h3 {
+  color: $color-very-dark-blue;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h4 {
+  color: $color-grayish-blue;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  line-height: 2.3rem;
+}
+
+a {
+  color: $color-dark-grayish-blue;
+  text-decoration: none;
+}
+
+.nav__mobile {
+  & a {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+.hero__new p {
+  color: $color-grayish-blue;
+  line-height: 2.5rem;
+}
+
+.hero__new h3 {
+  color: $color-off-white;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <!-- Mobile Nav -->
+    <nav id="nav" class="nav__mobile">
+      <div id="nav-bg" class="nav__mobile__bg nav__mobile__bg--closed"></div>
+      <ul id="nav-menu" class="nav__mobile__menu nav__mobile__menu--closed">
+        <li>
+          <a href="#" class="btn btn--nav">Home</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn--nav">New</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn--nav">Popular</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn--nav">Trending</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn--nav">Categories</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <header>
+        <img src="./assets/images/logo.svg" />
+        <button id="hamburger" class="btn btn--hamburger closed">
+          <img id="hamburger-img" src="./assets/images/icon-menu.svg" />
+        </button>
+        <!-- Desktop Nav -->
+        <nav class="nav__desktop">
+          <ul class="nav__desktop__menu">
+            <li>
+              <a href="#" class="btn btn--nav">Home</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--nav">New</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--nav">Popular</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--nav">Trending</a>
+            </li>
+            <li>
+              <a href="#" class="btn btn--nav">Categories</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <img
+          class="hero__img--desktop"
+          src="./assets/images/image-web-3-desktop.jpg"
+        />
+        <img
+          class="hero__img--mobile"
+          src="./assets/images/image-web-3-mobile.jpg"
+        />
+        <div class="hero__title">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div>
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="btn btn--btn">Read More</button>
+          </div>
+        </div>
+        <div class="hero__new">
+          <h2>New</h2>
+          <ul>
+            <li>
+              <h3>
+                <a href="#" class="btn btn--link">
+                  Hydrogen VS Electric Cars
+                </a>
+              </h3>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </li>
+            <li>
+              <h3>
+                <a href="#" class="btn btn--link">
+                  The Downsides of AI Artistry
+                </a>
+              </h3>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </li>
+            <li>
+              <h3>
+                <a href="#" class="btn btn--link"> Is VC Funding Drying Up? </a>
+              </h3>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div class="card">
+          <img src="./assets/images/image-retro-pcs.jpg" />
+          <div>
+            <h4>01</h4>
+            <h3>
+              <a href="#" class="btn btn--card">Reviving Retro PCs</a>
+            </h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/image-top-laptops.jpg" />
+          <div>
+            <h4>02</h4>
+            <h3>
+              <a href="#" class="btn btn--card">Top 10 Laptops of 2022</a>
+            </h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/image-gaming-growth.jpg" />
+          <div>
+            <h4>03</h4>
+            <h3>
+              <a href="#" class="btn btn--card">The Growth of Gaming</a>
+            </h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Tim O'Brien</a>.
+    </div>
+    <script type="text/javascript" src="js/hamburger.js"></script>
+  </body>
+</html>
